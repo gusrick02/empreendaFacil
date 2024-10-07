@@ -1,0 +1,188 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #040446;
+  color: white;
+}
+
+.menu-icon, .settings-icon, .cart-icon {
+  font-size: 24px;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  background-color: #EDEFF4;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-image: url('public/retrato-de-homem-elegante-sorrindo_23-2148448885.avif');
+  background-size: cover;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-weight: bold;
+  color: #0088cc;
+}
+
+.status {
+  font-size: 14px;
+  color: grey;
+}
+
+.search-section {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ddd;
+  background-color: #d0bcff;
+  border-radius: 20px;
+}
+
+.search-btn {
+  padding: 10px;
+  background: #040446;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.arrow {
+  background: #040446;
+  color: white;
+  font-size: 24px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.company-card {
+  box-shadow: 20px -15px 0px #13005E;
+  background-color: #BCB9C8;
+  border-radius: 30px;
+  padding: 20px;
+  width: 250px;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.company-logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 35px;
+  border-radius: 15px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  background: #040446;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  background: #040446;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.footer-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.botao-personalizado, .botao-personalizado2 {
+  background: #040446;
+  color: white;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.botao-personalizado {
+  margin: 20px auto;
+}
+
+.botao-personalizado2 {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.botao-personalizado2 {
+  width: 280px;
+}
+
+.seta {
+  margin-left: 608px;
+  margin-top: -30px;
+}
