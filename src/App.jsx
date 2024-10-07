@@ -33,7 +33,7 @@ const App = () => {
           <button className='arrow left'>←</button>
 
           <div className='company-card'>
-            <img src='public/windows.png' alt='Microsoft' className='company-logo' />
+            <img src='./public/windows.png' alt='Microsoft' className='company-logo' />
             <h3>Microsoft</h3>
             <p>US$ 500.000.000.000</p>
             <p>Criada em 1981. Patrimônio de US$ 340 Bilhões</p>
@@ -44,7 +44,7 @@ const App = () => {
           </div>
 
           <div className='company-card'>
-            <img src='public/logotipo-da-empresa_355-478255B1255D.png' alt='Company' className='company-logo' />
+            <img src='./public/logotipo-da-empresa_355-478255B1255D.png' alt='Company' className='company-logo' />
             <h3>Company</h3>
             <p>US$ 60.000.000</p>
             <p>Criada em 1879. Patrimônio de US$ 50 Milhões</p>
@@ -55,7 +55,7 @@ const App = () => {
           </div>
 
           <div className='company-card'>
-            <img src='public/aurora-alimentos.png' alt='Aurora' className='company-logo' />
+            <img src='./public/aurora-alimentos.png' alt='Aurora' className='company-logo' />
             <h3>Aurora</h3>
             <p>US$ 70.000</p>
             <p>Criada em 2019. Patrimônio de US$ 40 Mil</p>
